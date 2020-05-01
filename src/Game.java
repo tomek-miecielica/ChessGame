@@ -6,5 +6,6 @@ public class Game {
         Position newPosition = new Position (1,1);
         boolean validPosition = queen.isValidMove(oldPosition, newPosition);
         System.out.println(validPosition);
+        System.out.println(queen.checkSuper(newPosition));
     }
 }

@@ -11,7 +11,9 @@ public class Queen extends Piece {
         else{
                 return false;
         }
-
+    }
+    boolean checkSuper (Position position){
+       return super.isValidMove(position);
     }
 
 }
